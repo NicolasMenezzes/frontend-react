@@ -1,5 +1,173 @@
+<<<<<<< HEAD
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #F0EFEF;
+}
+
+//Header da página
+
+.Header {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+=======
+>>>>>>> 472624c50b74c40d8c4465a54f23c036982e3e6e
 .App {
     display: flex;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
+}
+
+.App img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+//Card de titulo de últimas postagens e titulo e conteúdo
+
+.Card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.Headercard {
+    height: 72px;
+    width: 100%;
+    margin-left: 19px;
+}
+
+.Headercard h2{
+    color: #494949;
+    font-size: 20px;
+    display: flex;
+    float: left;
+    margin-top: 24px ;
+    font-weight: bold;
+}
+
+.HeaderContent {
+    display: grid;
+    grid-template-columns: 491px 1fr;
+    width: 100%;
+    margin-left: 70px;
+    margin-top: 14px;
+}
+
+.HeaderContent p {
+    font-weight: bold;
+    color: #545454;
+}
+
+// Container e estilização da tebela de posts
+
+.table-container {
+    display: block;
+    padding-top: 0px;
+    box-sizing: border-box;
+    background-color: white;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-right: 40px;
+    
+}
+
+.table-container table {
+    border-spacing: 0;
+}
+
+.table-container thead tr th {
+    text-align: left;
+}
+
+td {
+    
+    border-bottom: 2px solid #EFEEEE;
+}
+
+
+.title p {
+    padding-top: 22px;
+    padding-bottom: 22px;
+    margin-left: 30px;
+    margin-right: 192px;
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    color: #2B2B2B;
+
+}
+
+.content p{
+    width: 730px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    color: #2B2B2B;
+}
+
+// Rodapé com o numero de Postagens por página e paginação
+
+.pagination {
+    margin: 0;
+    align-self: end;
+    justify-self: center;
+    float: right;
+}
+
+.contentpagination p{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-left: 30px;
+    font-size: 13px;
+    color: #494949;
+    width: 1100px;
+}
+
+.page-item a {
+    font-size: 15px;
+    color: #2B2B2B;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 4px 6px;
+}
+
+.page-item a:hover {
+    border: 1px solid #EFEEEE;
+    border-radius: 3px;
+}
+
+.page-item .selected {
+    border: 1px solid #EFEEEE;
+    border-radius: 3px;
+    color: black
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+=======
+>>>>>>> 472624c50b74c40d8c4465a54f23c036982e3e6e
 }
